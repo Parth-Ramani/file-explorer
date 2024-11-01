@@ -1,10 +1,14 @@
 {
+
   "name": "file-explorer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Parth-Ramani.github.io/file-explorer",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
